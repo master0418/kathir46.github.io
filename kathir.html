@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="Logo-icon" href="smalllogo.jpg">
+    <title>My E-commerce Site</title>
+    <link rel="stylesheet" href="kathir.css">
+    <link rel="icon" href="https://tse2.mm.bing.net/th?id=OIP.idB_-eo5pNgOG8Ker3jEpgHaEK&pid=Api&P=0&h=220">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My E-commerce Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Discover our wide range of products!</p>
+        </section>
+        <section id="products">
+            <h2>Products</h2>
+            <div class="product-grid">
+                <div class="product" data-id="1">
+                    <img src="product1.jpg" alt="product 1">
+                    <h3>Gas Stove</h3>
+                    <p>Price: $100</p>
+                    <button onclick="addToCart(1)">Add to Cart</button>
+                </div>
+                <div class="product" data-id="2">
+                    <img src="product2.jpg" alt="product 2">
+                    <h3>Ari Pods</h3>
+                    <p>Price: $15</p>
+                    <button onclick="addToCart(2)">Add to Cart</button>
+                </div>
+                <div class="product" data-id="3">
+                    <img src="product3.jpg" alt="product 3">
+                    <h3>Smart Phone</h3>
+                    <p>Price: $300</p>
+                    <button onclick="addToCart(3)">Add to Cart</button>
+                </div>
+                <div class="product" data-id="4">
+                    <img src="product4.jpg" alt="product 4">
+                    <h3>Refregirator</h3>
+                    <p>Price: $150</p>
+                    <button onclick="addToCart(4)">Add to Cart</button>
+                </div>
+                <div class="product" data-id="5">
+                    <img src="product5.jpg" alt="product 5">
+                    <h3>Air Conditionar</h3>
+                    <p>Price: $250</p>
+                    <button onclick="addToCart(1)">Add to Cart</button>
+                </div>
+                <div class="product" data-id="6">
+                    <img src="product6.jpg" alt="product 6">
+                    <h3>Laptop</h3>
+                    <p>Price: $450</p>
+                    <button onclick="addToCart(2)">Add to Cart</button>
+                </div>
+                <div class="product" data-id="7">
+                    <img src="product7.jpg" alt="product 7">
+                    <h3>Television</h3>
+                    <p>Price: $300</p>
+                    <button onclick="addToCart(3)">Add to Cart</button>
+                </div>
+                <div class="product" data-id="8">
+                    <img src="product8.jpg" alt="product 8">
+                    <h3>Sound Bar</h3>
+                    <p>Price: $160</p>
+                    <button onclick="addToCart(4)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My E-commerce Site</p>
+    </footer>
+    <script src="s.js"></script>
+</body>
+</html>
